@@ -13,3 +13,21 @@ You are a consumer lending manager who is lecturing as a guest speaker for stude
 Great question — and one every lending shop lives and dies by. If you're only going to walk away with a handful of metrics, here's how I'd group them. The first bucket is delinquency and default metrics, which tell you who's not paying. The classic ones are 30/60/90+ days-past-due (DPD) rates, which act as early warning signals — 30 DPD tells you who's starting to struggle, while 90+ DPD is a much stronger signal of real trouble. From there you move to the charge-off rate, usually expressed as net charge-offs as a percentage of average outstanding balances, which captures losses you've actually realized rather than just flagged. A related one is the non-performing loan (NPL) ratio — the share of the portfolio that's stopped performing altogether. I'd also mention roll rate analysis, which tracks how loans migrate between delinquency buckets month over month (what percentage of 30-DPD accounts "roll" to
 ### Evaluation
 This response was slightly stronger than the first response, and it seems that the role I assigned Claude provided a more practical and organized answer. Claude organized the response into four buckets, and was able to identify delinquency, roll rates, credit scores, DTI, and charge-offs as the important metrics. 
+## Strategy 3
+### Prompt
+This is the format I would like you to use:
+1. State the metrics
+2. Explain why the metric is important
+3. Provide a short example that conceptualizes the reasoning.
+   
+Here is my question: "What are the most important metrics for measuring credit risk in a consumer loan portfolio?"
+### First 150 Words
+"Delinquency Rate (30/60/90+ Days Past Due) 
+
+This is the earliest warning signal in the portfolio. It measures the percentage of loans falling behind on payments before they escalate to default or charge-off. Because it's a leading indicator, it lets you catch deterioration in underwriting or economic stress well before losses show up on the P&L. Example: If your Auto and Personal loan buckets show a jump in 30-day delinquencies quarter-over-quarter while Business and Education stay flat, that's a signal to dig into recent underwriting vintages or borrower segments in those two categories before the problem compounds into 90+ day delinquency or charge-offs. 
+
+Net Charge-Off Rate
+
+This measures the dollar amount of loans written off as uncollectible, net of recoveries, as a percentage of average outstanding balances. It's the most direct, realized measure of credit losses and is what ultimately hits the income statement, so it's the metric most closely tied"
+### Evaluation
+Claude's response with the third strategy was very straightforward and tailored to the format that I wanted it to use. Claude kept the response
