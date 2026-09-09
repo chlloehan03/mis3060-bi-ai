@@ -33,3 +33,16 @@ This measures the dollar amount of loans written off as uncollectible, net of re
 Claude's response with the third strategy was very straightforward and tailored to the format that I wanted it to use. Compared to the first two strategies, there was more connection to Wildcat's data, specifically the five loan purposes, in this response. On the contrary, I would have liked more direct focus on the other key variables as well (credit score, DTI, annual income). Some explanations strayed beyond that, and the answers were a lot more advanced than they had to be.
 ### Conclusion
 The third strategy is best fit for a BI analyst because the format is the easiest to follow. Claude strictly followed to metric, explanation, and example format, so it would be easier for a BI analyst to gather insights from this. The third strategy also made better connections to Wildcat's data without providing too generic of a response. In comparison, the first strategy stuck solely to surface-level responses and did not draw specific examples from the dataset. Additionally, while the second strategy was able to create a stronger, more organized response with a role assigned, the third strategy overall had the strongest, most organized answer. 
+## Fact Check
+### Claude's Claim
+"Net Charge-Off Rate
+
+This measures the dollar amount of loans written off as uncollectible, net of recoveries, as a percentage of average outstanding balances. It's the most direct, realized measure of credit losses and is what ultimately hits the income statement, so it's the metric most closely tied to profitability of the lending book. "
+### Source
+Source: Investopedia
+
+URL: https://www.investopedia.com/terms/n/net-charge-off-rate.asp
+### Source's Definition
+The net charge-off rate measures the proportion of debt owed to a company that is unlikely to be paid back to that company. This "bad debt" will then be written off on its financial statements. NCO rates shed important information to investors and analysts about the credit standards of lenders and the quality of their loan portfolio, and may also provide signals about general economic conditions.
+### Claude vs. Investopedia
+Based on the core claim both Claude and Investopedia make, I would say that they both agree on the central core claim that net charge-off rate can indicate the quality of the portfolio and that the debt will most likely not be recovered. However, when it comes to Claude's judgment, I interpreted Claude's statement that this metric is most related to profitability to be more of an interpretation rather than a simple definition. Overall, Claude's definition was reliable, but it doesn't hurt to fact check for biases or judgment pieces surrounding that definition.
