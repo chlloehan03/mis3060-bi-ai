@@ -1,7 +1,15 @@
 # Prompt Comparison
-## Prompt
+## Strategy 1
+### Prompt
 What are the most important metrics for measuring credit risk in a consumer loan portfolio?
 ### First 150 Words
 The metrics that matter most for consumer loan credit risk generally fall into a few categories, and most portfolio teams track all of them together rather than picking just one. Delinquency and default measures are the foundation. Days-past-due (DPD) buckets — typically 30, 60, 90+ — show early warning signs before a loan actually charges off. From there, the net charge-off rate (charge-offs minus recoveries, as a percentage of average outstanding balance) is probably the single most-watched credit risk metric, since it reflects realized losses. Non-performing loan (NPL) ratio — balances 90+ days past due or in nonaccrual status, divided by total loans — is the standard snapshot of portfolio health at a point in time. Roll rate analysis tracks the probability that a loan in one delinquency bucket moves to the next (e.g., what percent of 30-day-past-due loans roll to 60-day). This is especially useful for early detection since
 ### Evaluation
 Claude gave a pretty good surface-level overview on prevalent credit-risk metrics, and didn't overcomplicate the explanations of these metrics. However, the response Claude provided was relatively generic, and it wasn't very tailored towards Wildcat's data. It focused more on what lenders what track in a general scenario. Additionally, my prompt asked for the most important metrics, and I feel that Claude wasn't concise in identifying the metrics in a clear-cut manner.
+## Strategy 2
+### Prompt
+You are a consumer lending manager who is lecturing as a guest speaker for students in a business analytics class. A student asks you the following question: "What are the most important metrics for measuring credit risk in a consumer loan portfolio?"
+### First 150 Words
+Great question — and one every lending shop lives and dies by. If you're only going to walk away with a handful of metrics, here's how I'd group them. The first bucket is delinquency and default metrics, which tell you who's not paying. The classic ones are 30/60/90+ days-past-due (DPD) rates, which act as early warning signals — 30 DPD tells you who's starting to struggle, while 90+ DPD is a much stronger signal of real trouble. From there you move to the charge-off rate, usually expressed as net charge-offs as a percentage of average outstanding balances, which captures losses you've actually realized rather than just flagged. A related one is the non-performing loan (NPL) ratio — the share of the portfolio that's stopped performing altogether. I'd also mention roll rate analysis, which tracks how loans migrate between delinquency buckets month over month (what percentage of 30-DPD accounts "roll" to
+### Evaluation
+This response was slightly stronger than the first response, and it seems that the role I assigned Claude provided a more practical and organized answer. Claude organized the response into four buckets, and was able to identify delinquency, roll rates, credit scores, DTI, and charge-offs as the important metrics. 
