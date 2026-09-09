@@ -1,0 +1,7 @@
+# Prompt Comparison
+## Prompt
+What are the most important metrics for measuring credit risk in a consumer loan portfolio?
+### First 150 Words
+The metrics that matter most for consumer loan credit risk generally fall into a few categories, and most portfolio teams track all of them together rather than picking just one. Delinquency and default measures are the foundation. Days-past-due (DPD) buckets — typically 30, 60, 90+ — show early warning signs before a loan actually charges off. From there, the net charge-off rate (charge-offs minus recoveries, as a percentage of average outstanding balance) is probably the single most-watched credit risk metric, since it reflects realized losses. Non-performing loan (NPL) ratio — balances 90+ days past due or in nonaccrual status, divided by total loans — is the standard snapshot of portfolio health at a point in time. Roll rate analysis tracks the probability that a loan in one delinquency bucket moves to the next (e.g., what percent of 30-day-past-due loans roll to 60-day). This is especially useful for early detection since
+### Evaluation
+Claude gave a pretty good surface-level overview on prevalent credit-risk metrics, and didn't overcomplicate the explanations of these metrics. However, the response Claude provided was relatively generic, and it wasn't very tailored towards Wildcat's data. It focused more on what lenders what track in a general scenario. Additionally, my prompt asked for the most important metrics, and I feel that Claude wasn't concise in identifying the metrics in a clear-cut manner.
