@@ -1,0 +1,3 @@
+# Corporate Events Timeline Analysis
+
+Looking at the five companies, I noticed that the executive changes generally occurred before the earnings announcements were made. Of the 29 total executive events, 21 occurred before the nearest earnings announcement, 6 occurred ater, and 2 occurred during the same week. It can also be noticed that Walmart and JPMorgan exhibited the clearest pattern. All of their identiied executive events occurred before earings, while Microsot had more events happening after earnings. Overall, these results show that executive changes typically preceded earnings announcements.

@@ -1,0 +1,30 @@
+company,ticker,cik,filing_date,event_type,person_name,title,effective_date,earnings_filing_date,period,revenue_reported,eps_diluted,net_income,days_to_nearest_earnings,event_timing
+Apple Inc.,AAPL,0000320193,2025-12-05,appointment,Jennifer Newstead,General counsel,2026-03-01,2025-10-30,fourth quarter fiscal 2025,102.5 billion,1.85,"27,466 million",36,after earnings
+Apple Inc.,AAPL,0000320193,2025-12-05,departure,Kate Adams,General counsel,NOT_FOUND,2025-10-30,fourth quarter fiscal 2025,102.5 billion,1.85,"27,466 million",36,after earnings
+Apple Inc.,AAPL,0000320193,2026-01-02,appointment,Ben Borders,Principal Accounting Officer,2026-01-01,2026-01-29,first quarter fiscal 2026,143.8 billion,2.84,"42,097 million",27,before earnings
+Apple Inc.,AAPL,0000320193,2026-04-20,both,Tim Cook,Chief Executive Officer -> Executive Chair,2026-09-01,2026-04-30,second quarter fiscal 2026,111.2 billion,2.01,"29,578 million",10,before earnings
+Apple Inc.,AAPL,0000320193,2026-04-20,appointment,John Ternus,Chief Executive Officer and a member of the Board,2026-09-01,2026-04-30,second quarter fiscal 2026,111.2 billion,2.01,"29,578 million",10,before earnings
+Apple Inc.,AAPL,0000320193,2026-04-20,appointment,Art Levinson,Lead Independent Director,2026-09-01,2026-04-30,second quarter fiscal 2026,111.2 billion,2.01,"29,578 million",10,before earnings
+JPMorgan Chase & Co.,JPM,0000019617,2025-12-08,departure,Todd A. Combs,Director,2025-12-07,2026-01-13,fourth quarter fiscal 2025,45.8 billion,4.63,13.0 billion,36,before earnings
+JPMorgan Chase & Co.,JPM,0000019617,2026-06-25,appointment,Troy Rohrbaugh,Co-President,2026-06-24,2026-07-14,second quarter fiscal 2026,57.3 billion,7.7,21.2 billion,19,before earnings
+JPMorgan Chase & Co.,JPM,0000019617,2026-06-25,appointment,Doug Petno,Co-President,2026-06-24,2026-07-14,second quarter fiscal 2026,57.3 billion,7.7,21.2 billion,19,before earnings
+JPMorgan Chase & Co.,JPM,0000019617,2026-06-25,departure,Marianne Lake,CEO of CCB,NOT_FOUND,2026-07-14,second quarter fiscal 2026,57.3 billion,7.7,21.2 billion,19,before earnings
+Microsoft Corporation,MSFT,0000789019,2025-09-30,departure,Carlos A. Rodriguez,Director,2025-09-24,2025-10-29,first quarter fiscal 2026,77.7 billion,3.72,27.7 billion,29,before earnings
+Microsoft Corporation,MSFT,0000789019,2026-05-14,appointment,Carmine Di Sibio,Director,2026-05-13,2026-04-29,third quarter fiscal 2026,82.9 billion,4.27,31.8 billion,15,after earnings
+Microsoft Corporation,MSFT,0000789019,2026-06-05,departure,Reid Hoffman,Director,2026-06-02,2026-04-29,third quarter fiscal 2026,82.9 billion,4.27,31.8 billion,37,after earnings
+NVIDIA Corporation,NVDA,0001045810,2026-01-23,departure,Persis Drell,Director,2026-01-20,2026-02-25,fourth quarter fiscal 2026,68.1 billion,1.76,"42,960 million",33,before earnings
+NVIDIA Corporation,NVDA,0001045810,2026-04-27,departure,Donald Robertson,VP and CAO,2026-05-04,2026-05-20,first quarter fiscal 2027,81.6 billion,2.39,"58,321 million",23,before earnings
+NVIDIA Corporation,NVDA,0001045810,2026-04-27,appointment,Scott Gawel,VP and CAO,2026-05-04,2026-05-20,first quarter fiscal 2027,81.6 billion,2.39,"58,321 million",23,before earnings
+NVIDIA Corporation,NVDA,0001045810,2026-05-08,appointment,Suzanne Nora Johnson,Director,2026-07-13,2026-05-20,first quarter fiscal 2027,81.6 billion,2.39,"58,321 million",12,before earnings
+NVIDIA Corporation,NVDA,0001045810,2026-07-02,departure,Ajay K. Puri,"Executive Vice President, Worldwide Field Operations",2026-06-28,2026-05-20,first quarter fiscal 2027,81.6 billion,2.39,"58,321 million",43,after earnings
+NVIDIA Corporation,NVDA,0001045810,2026-07-02,appointment,Nicholas Parker,"Executive Vice President, Worldwide Field Operations",2026-08-24,2026-05-20,first quarter fiscal 2027,81.6 billion,2.39,"58,321 million",43,after earnings
+Walmart Inc.,WMT,0000104169,2025-10-22,appointment,Dwayne Milum,Senior Vice President and Controller,2026-02-01,2025-11-20,third quarter fiscal 2026,179.5 billion,0.77,"6,143 million",29,before earnings
+Walmart Inc.,WMT,0000104169,2025-10-22,appointment,David Chojnowski,"Senior Vice President, Treasurer and Tax",2026-01-31,2025-11-20,third quarter fiscal 2026,179.5 billion,0.77,"6,143 million",29,before earnings
+Walmart Inc.,WMT,0000104169,2025-11-14,departure,C. Douglas McMillon,President and chief executive officer,2026-01-31,2025-11-20,third quarter fiscal 2026,179.5 billion,0.77,"6,143 million",6,same week
+Walmart Inc.,WMT,0000104169,2025-11-14,appointment,John R. Furner,President and chief executive officer,2026-02-01,2025-11-20,third quarter fiscal 2026,179.5 billion,0.77,"6,143 million",6,same week
+Walmart Inc.,WMT,0000104169,2026-01-08,appointment,Shishir Mehrotra,Director,2026-01-08,2026-02-19,fourth quarter fiscal 2026,190.7 billion,0.53,"4,237 million",42,before earnings
+Walmart Inc.,WMT,0000104169,2026-01-16,appointment,David Guggina,"Executive Vice President, President and Chief Executive Officer, Walmart U.S.",2026-02-01,2026-02-19,fourth quarter fiscal 2026,190.7 billion,0.53,"4,237 million",34,before earnings
+Walmart Inc.,WMT,0000104169,2026-01-16,appointment,John Furner,President and Chief Executive Officer,2026-02-01,2026-02-19,fourth quarter fiscal 2026,190.7 billion,0.53,"4,237 million",34,before earnings
+Walmart Inc.,WMT,0000104169,2026-01-16,departure,Kathryn McLay,"Executive Vice President, President and Chief Executive Officer, Walmart International",2026-01-31,2026-02-19,fourth quarter fiscal 2026,190.7 billion,0.53,"4,237 million",34,before earnings
+Walmart Inc.,WMT,0000104169,2026-01-16,appointment,Christopher Nicholas,"Executive Vice President, President and Chief Executive Officer, Walmart International",2026-02-01,2026-02-19,fourth quarter fiscal 2026,190.7 billion,0.53,"4,237 million",34,before earnings
+Walmart Inc.,WMT,0000104169,2026-01-16,appointment,Latriece Watkins,"Executive Vice President, President and Chief Executive Officer, Sam's Club U.S.",2026-02-01,2026-02-19,fourth quarter fiscal 2026,190.7 billion,0.53,"4,237 million",34,before earnings

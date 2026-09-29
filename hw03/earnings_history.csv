@@ -1,0 +1,21 @@
+company,ticker,cik,filing_date,period,revenue_reported,eps_diluted,net_income
+Apple Inc.,AAPL,0000320193,2026-07-30,third quarter fiscal 2026,109.4 billion,2.02,"29,789 million"
+Apple Inc.,AAPL,0000320193,2026-04-30,second quarter fiscal 2026,111.2 billion,2.01,"29,578 million"
+Apple Inc.,AAPL,0000320193,2026-01-29,first quarter fiscal 2026,143.8 billion,2.84,"42,097 million"
+Apple Inc.,AAPL,0000320193,2025-10-30,fourth quarter fiscal 2025,102.5 billion,1.85,"27,466 million"
+Microsoft Corporation,MSFT,0000789019,2026-07-29,fourth quarter fiscal 2026,90.0 billion,4.81,35.8 billion
+Microsoft Corporation,MSFT,0000789019,2026-04-29,third quarter fiscal 2026,82.9 billion,4.27,31.8 billion
+Microsoft Corporation,MSFT,0000789019,2026-01-28,second quarter fiscal 2026,81.3 billion,5.16,38.5 billion
+Microsoft Corporation,MSFT,0000789019,2025-10-29,first quarter fiscal 2026,77.7 billion,3.72,27.7 billion
+NVIDIA Corporation,NVDA,0001045810,2026-08-26,second quarter fiscal 2027,96.2 billion,2.46,"59,688 million"
+NVIDIA Corporation,NVDA,0001045810,2026-05-20,first quarter fiscal 2027,81.6 billion,2.39,"58,321 million"
+NVIDIA Corporation,NVDA,0001045810,2026-02-25,fourth quarter fiscal 2026,68.1 billion,1.76,"42,960 million"
+NVIDIA Corporation,NVDA,0001045810,2025-11-19,third quarter fiscal 2026,57.0 billion,1.30,"31,910 million"
+JPMorgan Chase & Co.,JPM,0000019617,2026-07-14,second quarter fiscal 2026,57.3 billion,7.70,21.2 billion
+JPMorgan Chase & Co.,JPM,0000019617,2026-04-14,first quarter fiscal 2026,49.8 billion,5.94,16.5 billion
+JPMorgan Chase & Co.,JPM,0000019617,2026-01-13,fourth quarter fiscal 2025,45.8 billion,4.63,13.0 billion
+JPMorgan Chase & Co.,JPM,0000019617,2025-10-14,third quarter fiscal 2025,46.4 billion,5.07,14.4 billion
+Walmart Inc.,WMT,0000104169,2026-08-20,second quarter fiscal 2027,187.9 billion,0.80,"6,366 million"
+Walmart Inc.,WMT,0000104169,2026-05-21,first quarter fiscal 2027,177.8 billion,0.67,"5,330 million"
+Walmart Inc.,WMT,0000104169,2026-02-19,fourth quarter fiscal 2026,190.7 billion,0.53,"4,237 million"
+Walmart Inc.,WMT,0000104169,2025-11-20,third quarter fiscal 2026,179.5 billion,0.77,"6,143 million"
