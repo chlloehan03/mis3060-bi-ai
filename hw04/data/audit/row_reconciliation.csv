@@ -1,0 +1,9 @@
+table,raw_file,clean_file,raw_rows,clean_rows,quarantined_rows,check,status
+dim_advisor,dim_advisor.csv,dim_advisor.csv,25,25,0,raw_rows = clean_rows + quarantined_rows,PASS
+dim_benchmark,dim_benchmark.csv,dim_benchmark.csv,8,8,0,raw_rows = clean_rows + quarantined_rows,PASS
+dim_client,dim_client.csv,dim_client.csv,2500,2500,0,raw_rows = clean_rows + quarantined_rows,PASS
+dim_date,dim_date.csv,dim_date.csv,1827,1827,0,raw_rows = clean_rows + quarantined_rows,PASS
+dim_security,dim_security.csv,dim_security.csv,500,500,0,raw_rows = clean_rows + quarantined_rows,PASS
+fact_fees,fact_fees.csv,fact_fees.csv,122197,122197,0,raw_rows = clean_rows + quarantined_rows,PASS
+fact_portfolio_snapshot,fact_portfolio_snapshot.csv,fact_portfolio_snapshot.csv,129547,129547,0,raw_rows = clean_rows + quarantined_rows,PASS
+fact_transactions,fact_transactions (1).csv,fact_transactions.csv,298572,298572,0,raw_rows = clean_rows + quarantined_rows,PASS
