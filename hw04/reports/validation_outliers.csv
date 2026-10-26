@@ -1,0 +1,17 @@
+layer,table,column,subset,scale,n,q1,median,q3,iqr,lower_fence,upper_fence,low_outliers,high_outliers,outliers,outlier_pct,min,max,outliers_also_flagged,note
+clean,fact_portfolio_snapshot,aum,all rows,linear,129547,255418.055,484665.71,2923874.38,2668456.325,-3747266.4325,6926558.8675,0,13261,13261,10.236,1000.0,82386642.91,0,IQR on raw values
+clean,fact_portfolio_snapshot,aum,all rows,log10,129547,255418.055,484665.71,2923874.3798,1.0587,6594.6374,113245090.8245,1119,0,1119,0.864,1000.0,82386642.91,420,IQR on log10 values (fences converted back to $); iqr column is in log10 units
+clean,fact_fees,amount,all rows,linear,122197,188.6,353.01,1597.44,1408.84,-1924.66,3710.7,0,11341,11341,9.281,0.65,29412.47,0,IQR on raw values
+clean,fact_fees,amount,all rows,log10,122197,188.6,353.01,1597.44,0.9279,7.651,39377.5648,1138,0,1138,0.931,0.65,29412.47,386,IQR on log10 values (fences converted back to $); iqr column is in log10 units
+clean,fact_transactions,amount,txn_type in Buy/Sell,linear,143218,18322.285,47964.865,96639.5475,78317.2625,-99153.6087,214115.4412,0,1590,1590,1.11,14.62,249302.33,,IQR on raw values
+clean,fact_transactions,amount,txn_type in Buy/Sell,log10,143218,18322.285,47964.865,96639.5475,0.7222,1512.5744,1170624.9274,3250,0,3250,2.269,14.62,249302.33,,IQR on log10 values (fences converted back to $); iqr column is in log10 units
+clean,dim_client,initial_aum,all rows,linear,2500,232013.4775,418059.03,2561143.485,2329130.0075,-3261681.5337,6054838.4962,0,251,251,10.04,50016.07,49901583.57,,IQR on raw values
+clean,dim_client,initial_aum,all rows,log10,2500,232013.0147,418059.0009,2561142.6069,1.0429,6326.0151,93932500.1557,0,0,0,0.0,50016.07,49901583.57,,IQR on log10 values (fences converted back to $); iqr column is in log10 units
+raw,fact_portfolio_snapshot,aum,all rows,linear,129547,255418.055,484665.71,2923874.38,2668456.325,-3747266.4325,6926558.8675,0,13261,13261,10.236,1000.0,82386642.91,,IQR on raw values
+raw,fact_portfolio_snapshot,aum,all rows,log10,129547,255418.055,484665.71,2923874.3798,1.0587,6594.6374,113245090.8245,1119,0,1119,0.864,1000.0,82386642.91,,IQR on log10 values (fences converted back to $); iqr column is in log10 units
+raw,fact_fees,amount,all rows,linear,122197,188.6,353.01,1597.44,1408.84,-1924.66,3710.7,0,11341,11341,9.281,0.65,29412.47,,IQR on raw values
+raw,fact_fees,amount,all rows,log10,122197,188.6,353.01,1597.44,0.9279,7.651,39377.5648,1138,0,1138,0.931,0.65,29412.47,,IQR on log10 values (fences converted back to $); iqr column is in log10 units
+raw,fact_transactions,amount,txn_type in Buy/Sell,linear,143218,18322.285,47964.865,96639.5475,78317.2625,-99153.6087,214115.4412,0,1590,1590,1.11,14.62,249302.33,,IQR on raw values
+raw,fact_transactions,amount,txn_type in Buy/Sell,log10,143218,18322.285,47964.865,96639.5475,0.7222,1512.5744,1170624.9274,3250,0,3250,2.269,14.62,249302.33,,IQR on log10 values (fences converted back to $); iqr column is in log10 units
+raw,dim_client,initial_aum,all rows,linear,2500,232013.4775,418059.03,2561143.485,2329130.0075,-3261681.5337,6054838.4962,0,251,251,10.04,50016.07,49901583.57,,IQR on raw values
+raw,dim_client,initial_aum,all rows,log10,2500,232013.0147,418059.0009,2561142.6069,1.0429,6326.0151,93932500.1557,0,0,0,0.0,50016.07,49901583.57,,IQR on log10 values (fences converted back to $); iqr column is in log10 units

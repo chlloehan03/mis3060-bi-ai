@@ -1,0 +1,16 @@
+table,flag,values_0_1,rows_flagged,expected_rows_decision_log,count_matches,recomputed_rule,rule_failed_rows,rows_flag_without_rule,rows_rule_without_flag,agrees_with_rule,status
+fact_transactions,flag_dividend_amount_miscalculated,True,53826,53826,True,T08,53826,0,0,True,PASS
+fact_transactions,flag_oversell_first_in_window,True,9828,9828,True,T10,9828,0,0,True,PASS
+fact_transactions,flag_txn_on_negative_position_in_window,True,15977,15977,True,T11,15977,0,0,True,PASS
+fact_transactions,flag_oversell_first_pre_window,True,15693,15693,True,T12,15693,0,0,True,PASS
+fact_transactions,flag_txn_on_negative_position_pre_window,True,25574,25574,True,T13,25574,0,0,True,PASS
+fact_transactions,flag_dividend_without_prior_purchase,True,8444,8444,True,T14,8444,0,0,True,PASS
+fact_transactions,flag_weekend_trade_or_dividend,True,56117,56117,True,T15,56117,0,0,True,PASS
+fact_portfolio_snapshot,flag_extreme_return,True,2639,2639,True,P13,2639,0,0,True,PASS
+fact_portfolio_snapshot,flag_aum_equals_1000,True,420,420,True,P14,420,0,0,True,PASS
+fact_portfolio_snapshot,flag_aum_mom_jump,True,330,330,True,P15,330,0,0,True,PASS
+fact_fees,flag_aum_basis_equals_1000,True,386,386,True,F08,386,0,0,True,PASS
+fact_fees,flag_bps_above_100,True,1,1,True,F09,1,0,0,True,PASS
+dim_client,flag_risk_profile_unknown,True,75,75,True,C10,75,0,0,True,PASS
+dim_client,flag_zip_state_mismatch,True,2229,2229,True,C11,2229,0,0,True,PASS
+dim_client,flag_initial_aum_mismatch,True,1,1,True,C12,1,0,0,True,PASS
